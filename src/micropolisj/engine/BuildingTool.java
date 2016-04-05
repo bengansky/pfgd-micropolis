@@ -31,6 +31,9 @@ class BuildingTool extends ToolStroke
 	{
 		switch (tool)
 		{
+		case TOWNHALL:
+			return applyZone(eff, TOWNHALL);
+		
 		case FIRE:
 			return applyZone(eff, FIRESTATION);
 

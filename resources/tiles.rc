@@ -994,7 +994,6 @@
 945   misc_animation@0,1888 (conducts)(description=#24)(becomes=946)
 946   misc_animation@0,1904 (conducts)(description=#24)(becomes=947)
 947   misc_animation@0,1920 (conducts)(description=#24)(becomes=940)
-960   townhall@0,0          (conducts)(bulldozable)
 # BEGIN BRIDGE TILES #
 948   misc_animation@0,1936  (bulldozable)(noburn)(overwater)(description=#20)
 949   misc_animation@0,1952  (bulldozable)(noburn)(overwater)(description=#20)
