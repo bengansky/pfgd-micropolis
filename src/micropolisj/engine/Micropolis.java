@@ -1287,10 +1287,21 @@ public class Micropolis
 		{
 			employment = 1;
 		}
-
-		double migration = normResPop * (employment - 1);
+		boolean townHallBuilt;
+		if (townHallBuilt = true) 
+			{
+			if ((totalPop % 10000) > 1)
+				{
+				double migration = 1.2 * normResPop * (employment - 1);
+				}
+			else
+			{
+				townHallBuilt = false;
+				double migration = normResPop * (employment - 1);
+			}
 		final double BIRTH_RATE = 0.02;
 		double births = (double)normResPop * BIRTH_RATE;
+		double migration = 1.2 * normResPop * (employment - 1);
 		double projectedResPop = normResPop + migration + births;
 
 		double temp = (history.com[1] + history.ind[1]);
@@ -1399,6 +1410,7 @@ public class Micropolis
 		}
 
 		fireDemandChanged();
+	}
 	}
 
 	int [][] smoothTerrain(int [][] qtem)
