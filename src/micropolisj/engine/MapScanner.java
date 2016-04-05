@@ -41,7 +41,7 @@ class MapScanner extends TileBehavior
 		STADIUM_EMPTY,
 		STADIUM_FULL,
 		AIRPORT,
-		SEAPORT;
+		SEAPORT,
 		TOWNHALL;
 	}
 
@@ -283,6 +283,14 @@ class MapScanner extends TileBehavior
 		}
 	}
 
+	void doTownHall()
+	{
+		boolean powerOn = checkZonePower();
+		boolean townHallBuilt = true;
+		if ((city.cityTime % 8) == 0) {
+			repairZone(TOWNHALL, 6);}
+		}
+	
 	void doAirport()
 	{
 		boolean powerOn = checkZonePower();
