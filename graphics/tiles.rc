@@ -1010,4 +1010,4 @@
 958   misc_animation@0,2096
 959   misc_animation@0,2112
 #new_buildings#
-960   townhall@0,0          (zone)(conducts)(building=3x3)(behavior=TOWNHALL)(description=#13)(pollution=50)
+960   townhall@0,0          (zone)(conducts)(building=1x1)(behavior=TOWNHALL)(description=#13)(pollution=50)
